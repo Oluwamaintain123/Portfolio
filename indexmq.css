@@ -1,0 +1,726 @@
+@media (max-width: 1439px) {
+
+    /* ===RESUME=== */
+
+    .about{
+        gap: 2em;
+
+        & .about2{
+            width: 75%;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+
+    /* ===ABOUT=== */
+
+    .about{
+        gap: 3.5em;
+
+        & .about2{
+            width: 75%;
+            gap: 0.8em;
+        }
+    }
+
+    /* ===RESUME=== */
+
+    .resume{
+
+        & .resumes{
+
+            & .resume1{
+                width: 400px;
+            }
+        }
+    }
+
+    /* ===BLOG=== */
+
+    .blog{
+
+        & .blogs{
+
+            & .blog1{
+                width: 350px;
+
+                & .para{
+                    font-size: 0.9em;
+                }
+
+                .links{
+                    gap: 12.5em;
+                }
+            }
+        }
+    }
+
+    /* ===FOOTER=== */
+
+    footer{
+
+        & .abouts{
+            width: 45%;
+        }
+
+        & .servicees{
+            width: 25%;
+        }
+    }
+}
+
+@media (max-width: 1251px) {
+
+    /* ===ABOUT=== */
+
+    .about{
+        gap: 3em;
+
+        & .about2{
+            width: 70%;
+        }
+    }
+
+    /* ===PROJECTS=== */
+
+    .project{
+        
+        .projects{
+            
+            & .proj1{
+                width: 250px;
+            }
+        }
+    }
+
+    /* ===BLOG=== */
+
+    .blog{
+
+        & .blogs{
+
+            & .blog1{
+                width: 550px;
+
+                & .small{
+                    font-size: 1.2em;
+                    font-weight: 500;
+                }
+
+                & .para{
+                    font-size: 1.1em;
+                }
+
+                & .links{
+                    gap: 24em;
+
+                    & button{
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+
+    /* ===ABOUT=== */
+
+    .about{
+        flex-direction: column;
+        align-items: center;
+
+        & .about1{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            & .empty_bg{
+                height: 450px;
+                width: 300px;
+            }
+        }
+
+        & .about2{
+            align-items: start;
+            width: 100%;
+
+            & h3{
+                font-family: 2.2em;
+            }
+
+            & .cont{
+                width: 100%;
+            }
+
+            & button{
+                font-size: 1.1em;
+            }
+        }
+    }
+
+    /* ===CONTACT=== */
+
+    .contact{
+
+        & .contacts{
+
+            & .contact1{
+                width: 35%;
+            }
+        }
+    }
+
+    /* ===FOOTER=== */
+
+    footer{
+        flex-direction: column;
+
+        & .footer_1{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 840px) {
+
+    /* ===HEADER=== */
+
+    header{
+
+        & nav{
+
+            & .sidebar{
+                display: none;
+            }
+
+            & .barss{
+
+                & i{
+                    display: block;
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+
+    /* ===PROJECTS=== */
+
+    .project{
+
+        & .projects{
+            flex-direction: column;
+
+            & .proj1{
+                width: 400px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 740px) {
+    
+    /* ===HOME=== */
+
+    .home{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & .home1{
+            align-items: center;
+
+            & h4{
+                text-align: center;
+                font-size: 3em;
+            }
+        }
+
+        & .home2{
+            display: none;
+
+            .empty_bg{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    
+    /* ===HOME=== */
+
+    .home{
+        padding: 3em 2em;
+    }
+
+    /* ===HOME=== */
+
+    .about{
+        padding: 3em 2em;
+    }
+
+    /* ===RESUME=== */
+
+    .resume{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SERVICES=== */
+
+    .service{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SKILLS=== */
+
+    .skill{
+        padding: 3em 2em;
+    }
+
+    /* ===BLOG=== */
+
+    .project{
+        padding: 3em 2em;
+    }
+
+    /* ===BLOG=== */
+
+    .blog{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    /* ===FREELANCE=== */
+
+    .freelance{
+        padding: 3em 2em;
+    }
+
+    /* ===CONTACT=== */
+
+    .contact{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .contacts{
+            flex-direction: column;
+            
+            & .contact1{
+                width: 100%;
+
+                & a{
+                    font-size: 1.3em;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    /* ===FOOTER=== */
+
+    footer{
+        padding: 3em 2em;
+
+        & .abouts{
+
+            & .form{
+
+                & form{
+                    
+                    & input:first-child{
+                        width: 20em;
+                        height: 2.6em;
+                    }
+
+                    & input:last-child{
+                        height: 2.6em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    
+    /* ===HOME=== */
+
+    .home{
+        padding: 3em 2em;
+    }
+
+    /* ===ABOUT=== */
+
+    .about{
+        padding: 3em 2em;
+    }
+
+    /* ===RESUME=== */
+
+    .resume{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SERVICES=== */
+
+    .service{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SKILLS=== */
+
+    .skill{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    /* ===PROJECTS */
+
+    .project{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    /* ===BLOG=== */
+
+    .blog{
+        padding: 3em 2em;
+    }
+
+    /* ===FREELANCE=== */
+
+    .freelance{
+        padding: 3em 2em;
+
+        & .free{
+            width: 100%;
+        }
+    }
+
+    /* ===CONTACT=== */
+
+    .contact{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .contacts{
+            flex-direction: column;
+
+            & .contact1{
+                width: 100%;
+
+                & a{
+                    font-size: 1.3em;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    /* ===FOOTER=== */
+
+    footer{
+        padding: 3em 2em;
+    }
+}
+
+@media (max-width: 520px) {
+    
+    .home{
+        padding: 3em 2em;
+    }
+
+    .about{
+        padding: 3em 2em;
+    }
+
+    .resume{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    .service{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    & .skill{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    .project{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    .blog{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .blogs{
+
+            & .blog1{
+                width: 440px;
+
+                & .links{
+                    gap: 17em;
+                }
+            }
+        }
+    }
+
+    .freelance{
+        padding: 3em 2em;
+
+        & .free{
+            width: 100%;
+        }
+    }
+
+    .contact{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .contacts{
+            flex-direction: column;
+
+            & .contact1{
+                width: 100%;
+            }
+        }
+    }
+
+    footer{
+        padding: 3em 2em;
+    }
+}
+
+@media (max-width: 390px) {
+    
+    /* ===HOME=== */
+
+    .home{
+        padding: 3em 2em;
+
+        & .home1{
+            font-size: 0.7em;
+            width: 100%;
+        }
+    }
+
+    /* ===ABOUT=== */
+
+    .about{
+        padding: 3em 2em;
+
+        & .about1{
+
+            .empty_bg{
+                height: 290px;
+                width: 190px;
+            }
+        }
+    }
+
+    /* ===REASUME=== */
+
+    .resume{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SERVICES=== */
+
+    .service{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+
+        & .services{
+
+            & .services1{
+                
+                & .serv{
+                    width: 360px;
+                }
+            }
+        }
+    }
+
+    /* ===SKILLS=== */
+
+    .skill{
+        padding: 3em 2em;
+
+        & .skills{
+
+            & .ski_level{
+
+                & .leve1{
+                    gap: 9.3em;
+                }
+
+                & .leve2{
+                    
+                    & progress{
+                        width: 370px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* ===PROJECTS=== */
+
+    .project{
+        padding: 3em 2em;
+
+        & .projects{
+
+            & .proj1{
+                width: 370px;
+            }
+        }
+    }
+
+    /* ===BLOG=== */
+
+    .blog{
+        padding: 3em 2em;
+
+        & .blogs{
+
+            .blog1{
+                width: 380px;
+
+                & .links{
+                    gap: 13.5em;
+                }
+            }
+        }
+    }
+
+    /* ===FREELANCE=== */
+
+    .freelance{
+        padding: 3em 2em;
+
+        & h2{
+            font-size: 2em;
+        }
+
+        & .free{
+            width: 100%;
+        }
+    }
+
+    /* ===CONTACT=== */
+
+    .contact{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .contacts{
+            flex-direction: column;
+            gap: 2.5em;
+
+            & .contact1{
+                width: 100%;
+
+                & a{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    /* ===FOOTER=== */
+
+    footer{
+        padding: 3em 2em;
+
+        & .abouts{
+
+            & .form{
+
+                & form{
+                    
+                    & input:first-child{
+                        width: 18em;
+                    }
+
+                    & input:last-child{
+                        width: 7em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* @media (max-width: 1251px) {
+    
+} */
