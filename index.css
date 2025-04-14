@@ -714,6 +714,11 @@ header{
                 border-radius: 8px;
             }
 
+            & h5{
+                font-weight: 450;
+                font-size: 1.2em;
+            }
+
             & .small{
                 text-transform: capitalize;
                 color: var(--colorTwo);
